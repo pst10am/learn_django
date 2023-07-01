@@ -1,0 +1,20 @@
+7/1/23
+
+Python Virtual Environments
+
+https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder
+[
+The virtual environment manages files that aren't yours. It doesn't care how you manage your own files. Put them wherever makes sense to you, just not anywhere inside the venv directory tree. Common solutions include directly in myproject, or in myproject/src.
+
+For what it's worth, one of the important use cases for virtual environments is the ability to delete one and start over. You obviously can't do that if you put stuff there which isn't part of the virtual environment. Regard them as ephemeral infrastructure.
+
+Another use case is the ability to have multiple virtual environments for the same project so that you can test that your code works with different versions of the libraries you depend on or even different Python versions.
+
+A common convention is to collect the libraries you need in requirements.txt so that you can create a new virtual environment, activate it, and pip install -f requirements.txt whenever you need to.
+]
+
+https://towardsdatascience.com/virtual-environments-104c62d48c54
+
+python -m venve [name of the environment]
+
+
