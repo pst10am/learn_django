@@ -1,6 +1,8 @@
 7/1/23
 
+*****************************************
 Python Virtual Environments
+*****************************************
 
 https://stackoverflow.com/questions/51499950/where-do-i-put-my-python-files-in-the-venv-folder
 [
